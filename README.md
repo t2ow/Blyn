@@ -1,6 +1,6 @@
 # VaultEdit
 
-VaultEdit is a terminal-based text editor designed with a focus on simplicity, accessibility, and future-proof integration with AI technologies. Inspired by the best aspects of Vim, Emacs, and Nano, VaultEdit aims to create an intuitive editing experience while retaining power for advanced users. It is currently in its early stages of development, but the vision is to create a lightweight, feature-packed editor that will eventually integrate AI capabilities to assist with coding, debugging, and more—all without leaving the terminal.
+VaultEdit is a terminal-based text editor designed with a focus on simplicity, accessibility, and future-proof integration with AI technologies. Inspired by the best aspects of Vim, Emacs, and Nano, VaultEdit aims to create an intuitive editing experience while retaining power for advanced users. It is currently in its early stages of development, but the vision is to create a lightweight, feature-packed editor that will eventually integrate AI capabilities to assist with coding, debugging, and more, all without leaving the terminal.
 
 ## Vision
 
