@@ -1,4 +1,4 @@
 #include <stdio.h>
 int main() {
-    printf("Namaste Vault!");
+    printf("Hello world");
 }

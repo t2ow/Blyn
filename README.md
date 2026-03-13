@@ -1,56 +1,39 @@
-# VaultEdit
+# Blyn
 
-VaultEdit is a terminal-based text editor designed with a focus on simplicity, accessibility, and future-proof integration with AI technologies. Inspired by the best aspects of Vim, Emacs, and Nano, VaultEdit aims to create an intuitive editing experience while retaining power for advanced users. It is currently in its early stages of development, but the vision is to create a lightweight, feature-packed editor that will eventually integrate AI capabilities to assist with coding, debugging, and more, all without leaving the terminal.
+Blyn is a simple and fast command line code editor built for 2026. It takes the best ideas from classic editors like Vim and Emacs and puts them into a package that is easy to pick up but powerful enough for serious work.
 
-## Vision
+This project started as VaultEdit and has been completely rebuilt to be faster and more reliable. It now uses a dynamic line system, which means it can handle large files without any issues.
 
-The vision behind VaultEdit is to build an editor that:
+## Key features
 
-- **Combines the best features of Vim, Emacs, and Nano:**  
-  The powerful command structure of Vim, the simplicity of Nano, and the extensibility of Emacs.
+Blyn uses different modes to keep your workspace clean.
 
-- **Offers an approachable interface for new users**  
-  While still delivering advanced capabilities for developers.
+Normal mode is where you start. You can move around using the arrow keys or the classic hjkl keys. You can also jump to the start or end of lines and search for text easily.
 
-- **Integrates AI-powered tools**  
-  Assists users in writing, debugging, and generating code directly from the editor, creating an all-in-one solution for developers.
+Insert mode is for typing. You can enter it by pressing i, a, or o. While you are typing, you can use shortcuts inspired by Emacs to move your cursor or delete text quickly.
 
-- **Is open-source and built with the community**  
-  Allowing contributions, feedback, and constant evolution.
+Command mode lets you save your work and manage your files. Just type a colon followed by your command.
 
-## Current State
+## Installation
 
-VaultEdit is a work in progress. It is currently a basic terminal-based text editor with the following features:
+Building Blyn is straightforward. You just need a terminal and the ncurses library.
 
-- **Insert Mode**: Type freely to edit text.
-- **Command Mode**: Perform operations like saving, quitting, and opening files.
-- **Basic File Operations**: Save, open, and edit text files with a few simple commands.
-- **Customization Options**: While minimal, customization of keybindings and editor behavior will be added in future updates.
+To compile it, run:
+make
 
-## What’s Coming Next:
+If you want to be able to run it from anywhere by just typing blyn, you can install it system wide:
+sudo make install
 
-- **AI Mode**  
-  Integration of local AI models like LLaMA or DeepSeek for users to leverage within the editor for debugging, code suggestions, and more. *(Planned for future releases.)*
+## How to use it
 
-- **More Advanced Features**  
-  Features like advanced file handling, enhanced customization, and more intuitive workflows will be added as the project progresses.
+To open a file, just type:
+blyn filename.txt
 
-## Development Timeline
+Once you are in the editor:
 
-I’m planning to release the first version in the next **4 months**. Until then, I have a lot to learn and a lot to build. The journey will be about becoming a modern tech developer in an age where AI is changing how we perceive coding.
+Press i to start typing.
+Press ESC to return to normal mode for navigation.
+Type :w to save your progress.
+Type :q to exit.
 
-## Contributing
-
-VaultEdit is open-source, and contributions are welcome! Here's how you can help:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes.
-4. Submit a pull request.
-
-## Personal Note
-
-This project started out with a simple desire to **do something cool—because why not?**  
-It’s a journey of creation, not driven by fame or profit, but by the excitement of building something from the ground up. Sometimes it’s just about making something interesting and useful, and that’s what VaultEdit is all about.  
-
-Whether this project will ever be completed, I can’t say. But when I look back, I hope there’s a moment where I can think, **"That was some cool stuff."**
+Blyn is designed to stay out of your way and let you focus on your code.
