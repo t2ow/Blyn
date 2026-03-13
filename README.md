@@ -36,4 +36,3 @@ Press ESC to return to normal mode for navigation.
 Type :w to save your progress.
 Type :q to exit.
 
-Blyn is designed to stay out of your way and let you focus on your code.
